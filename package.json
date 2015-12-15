@@ -4,8 +4,10 @@
   "description": "Single Page React Web App with React-router and webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  }
+,
   "keywords": [
     "react",
     "node",
